@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(26, 26, 61);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(106, 126, 206);
+    font-size: 1.5rem;
+}
+
+.left {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.left img {
+    height: 80px;
+    margin-right: 10px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(185, 128, 88);
+
+}
+
+.heading {
+    margin: 50px;
+}
+
+.web1 {
+    margin: 50px;
+}
+
+.ML {
+    margin: 50px;
+}
+
+.Data {
+    margin: 50px;
+}
+
+.first a {
+    text-decoration: none;
+    color: rgb(185, 128, 88);
+}
+
+.second a {
+    text-decoration: none;
+    color: rgb(185, 128, 88);
+}
+
+.third a {
+    text-decoration: none;
+    color: rgb(185, 128, 88);
+}
+
+.first a:hover {
+    color: rgb(106, 126, 206);
+    font-size: 1.05rem;
+}
+
+.second a:hover {
+    color: rgb(106, 126, 206);
+    font-size: 1.05rem;
+}
+
+.third a:hover {
+    color: rgb(106, 126, 206);
+    font-size: 1.05rem;
+}
+.footer{
+display: flex;
+padding: 23px 122px;
+justify-content: space-evenly;
+background-color: blueviolet;
+}
+
+.footer ul{
+list-style: none;
+}
+
+.footer > div{
+width: 223px;
+}
+.rights{
+text-align: center;
+background-color: blueviolet;
+color: rgb(193, 174, 174);
+padding: 15px 0px;
+}
